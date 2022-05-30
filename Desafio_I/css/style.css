@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+#logomarca {
+    width: 50%;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+a, nav {
+    width: 500px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    justify-content: center;
+    margin: 5px;
+       
+}
+
+.menu_top {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color:  black;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.home {
+    width: 80px;
+    height: 5px;
+    box-sizing: border-box;
+    background-color: yellow;
+    border-radius: 10px;
+    color: black;
+    
+}
+
+p {
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: helvetica;
+    font-size: 24px;
+    padding: 15px;
+                
+}
+
+main {
+    width: 100%;
+    height: auto;
+    font-family: helvetica;
+    display: flex;
+    justify-content: center;
+        
+}
+
+#caixa_texto {
+    margin-top: 100px;
+    width: 650px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+fieldset{
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+}
+
+#texto {
+    width: 50%;
+    border-right: 1px dashed blue;
+    padding: 10px;
+}
+
+.enviardados {
+    padding: 5px;
+}
